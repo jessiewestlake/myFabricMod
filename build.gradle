@@ -1,0 +1,7 @@
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabricmc.net/' }
+}
+dependencies {
+    modImplementation "net.fabricmc.fabric-api:fabric-api:<fabric-api-version>"
+}
